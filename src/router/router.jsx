@@ -18,7 +18,7 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route key={i.path} path={i.path} element={<i.component />} />)
     }
   </Route>
-), { basename: "/react-deploy" });
+), { basename: "/final-project" });
 
 
 export { router }
